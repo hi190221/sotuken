@@ -24,7 +24,7 @@ function  mainChange() {
  if(count==2){
    a = 6000;   
    setTimeout('(new Audio("音声/s3.mp3")).play();', 1000);
-   setTimeout('scrollTo(0, 700);', 11000);
+   setTimeout('scrollTo(0, 880);', 11000);
    
  }
 

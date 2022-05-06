@@ -28,7 +28,7 @@ function  mainChange() {
    a = 7000;　//待機時間+1秒
     (new Audio("効果音/s3.mp3")).play();
    setTimeout('(new Audio("音声/s3.mp3")).play();', 10000);
-   setTimeout('scrollTo(0, 700);', 25000);
+   setTimeout('scrollTo(0, 880);', 25000);
  }
 
  if(count==3){
