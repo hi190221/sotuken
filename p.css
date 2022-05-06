@@ -1,0 +1,16 @@
+body {
+    background-color: #F0E68C
+    }
+    
+
+    p.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    p.inner {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      }
