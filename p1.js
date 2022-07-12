@@ -1,4 +1,4 @@
-const img = ["イラスト屋/s0.png","イラスト屋/s1.png","イラスト屋/s2.png","イラスト屋/s3.png","イラスト屋/s4.png","イラスト屋/s5.png","イラスト屋/s6.png","イラスト屋/s7.png"];
+const img = ["イラスト屋/s1.png","イラスト屋/s1.png","イラスト屋/s2.png","イラスト屋/s3.png","イラスト屋/s4.png","イラスト屋/s5.png","イラスト屋/s6.png","イラスト屋/s7.png","イラスト屋/s8.png"];
 
 let count = -1;
 let a = 15000;
@@ -39,17 +39,24 @@ function  mainChange() {
  } 
 
  if(count==5){
-   a = 8000;
+   a = 6000;
    setTimeout('(new Audio("音声/s6.mp3")).play();', 1000);
  } 
 
  if(count==6){
-   a = 12000;   //(この後の)mp3の長さ＋2秒+待機時間2秒
+   a=8000
    setTimeout('(new Audio("音声/s7.mp3")).play();', 1000);
+ }
+
+
+
+ if(count==7){
+   a = 12000;   //(この後の)mp3の長さ＋2秒+待機時間2秒
+   setTimeout('(new Audio("音声/s8.mp3")).play();', 1000);
  } 
  
- if(count==7){
-  setTimeout('(new Audio("音声/s8.mp3")).play();', 1000);
+ if(count==8){
+  setTimeout('(new Audio("音声/s9.mp3")).play();', 1000);
  }
  
  if(count==img.length){
@@ -106,21 +113,3 @@ function  mainChange() {
 
     
   }
-    
-
-    
-  
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-

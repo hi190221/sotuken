@@ -1,4 +1,4 @@
-const img = ["編集写真/s0.jpg","編集写真/s1.jpg","編集写真/s2.jpg","編集写真/s3.jpg","編集写真/s4.jpg","編集写真/s5.jpg","編集写真/s6.jpg","編集写真/s7.jpg"];
+const img = ["編集写真/s1.jpg","編集写真/s1.jpg","編集写真/s2.jpg","編集写真/s3.jpg","編集写真/s1.jpg","編集写真/s5.jpg","編集写真/s6.png","写真ルート/r1.png","写真ルート/r2.png","写真ルート/r3.png","写真ルート/r4.jpg","写真ルート/r5.png","編集写真/s7.jpg"];
 
 let count = -1;
 let a = 15000;
@@ -44,12 +44,34 @@ function  mainChange() {
  } 
 
  if(count==6){
-   a = 12000;   //(この後の)mp3の長さ＋2秒+待機時間2秒
+   a=4000;
    setTimeout('(new Audio("音声/s7.mp3")).play();', 1000);
+   
+ }
+
+
+ if(count==7){
+    a = 4000;
+    setTimeout('(new Audio("音声/s8.mp3")).play();', 1000);
+  } 
+
+  if(count==8){
+    a = 4000;
+  } 
+  if(count==9){
+    a = 4000;
+  } 
+  if(count==10){
+    a = 4000;
+  } 
+  
+ 
+ if(count==11){
+   a = 12000;   //(この後の)mp3の長さ＋2秒+待機時間2秒
  } 
  
- if(count==7){
-  setTimeout('(new Audio("音声/s8.mp3")).play();', 1000);
+ if(count==12){
+  setTimeout('(new Audio("音声/s9.mp3")).play();', 1000);
  }
  
  if(count==img.length){
