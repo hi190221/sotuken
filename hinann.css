@@ -1,0 +1,15 @@
+body {
+    background-color: #F0E68C;
+    overflow: hidden;
+    }
+    
+
+    p.container {
+      text-align:center;
+      }
+      
+    p.inner {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      }
